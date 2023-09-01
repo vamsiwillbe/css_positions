@@ -1,0 +1,158 @@
+/* p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 30px;
+    line-height: 1.4em; 
+    background: rgb(178, 168, 168);  
+} */
+
+.para{
+    background: none;   
+}
+img{
+    float: left;
+    margin: 10px;
+}
+.wrapper{
+    background:#f6f3f3;
+    max-width:960px;
+    margin: 0 auto;
+    padding: 20px;
+    
+
+
+}
+.wrapper::after{
+    content:"";
+    display: block;
+    clear:both;
+}
+
+.blue{
+    background: blue;
+    float:left;
+
+}
+.red{
+    background: red;
+    float:left;
+    margin-left: 20px;
+
+}
+.green{
+    background: green;
+    float: left;
+}
+.box{
+    height:100px;
+    width:100px;
+}
+.wrapper1{
+    background:#f6f3f3;
+    max-width:960px;
+    margin: 0 auto;
+    padding: 20px;
+    
+
+
+}
+.wrapper1::after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.services{
+    max-hight:150px;
+    overflow:visible;
+}
+
+.services::after{
+    content:" " ;
+    display: block;
+    clear: both;
+
+}
+
+
+.service h2, .service p{
+    color:#000000;
+    margin: 10px 0;
+    text-align: center;
+}
+.service{
+    float:left;
+    background: #797070;
+    width:29.33%;
+    margin:1%;
+    padding: 1%;
+    height: 140px;  
+}
+.service:nth-child(1){
+    top:25px;
+}
+
+.content{
+    padding: 50px;
+    /* background: #ccc; */
+    clear:left;
+    margin: 20px 1%;
+    position: relative;
+    /*left right bottom top*/
+}
+
+.content p{
+    -webkit-column-count: 3;
+    -webkit-column-gap: 50px;
+    -webkit-column-rule: 1px solid #ccc;
+    text-align: justify;
+}
+
+section,aside{
+    float:left;
+    width: 46%;
+    padding: 1%;
+    margin: 1%;
+    background: #f2f2f2;
+}
+
+#banner{
+    max-height: 300px;
+    overflow: hidden;
+    margin:1%;  
+    position: relative;
+}
+#banner h2{
+    position: absolute;
+    top:30px;
+    margin:0;
+    width:100%;
+    text-align: center;
+    color:#fff;
+
+}
+nav{
+    background: #333;
+    /* padding: 5px ; */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width:100%; 
+    z-index:1  
+}
+
+nav ul::after{
+    content: "";
+    display:block;
+    clear: both;
+}
+
+nav li{
+    list-style-type:none;
+    margin: 0 10px;
+    color:#fff;
+    float:right;
+
+}
+
+
+
